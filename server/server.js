@@ -12,7 +12,7 @@ function start(route, handle){
 		route(handle, '/p3p', res);
 	});
 
-	app.get('/w3c/xmlcoding.xml#FidelityWebsites', function(req, res){
+	app.get('/w3c/xmlcoding.xml#CFSWebsites', function(req, res){
 		route(handle, '/xmlcoding', res);
 	});
 
