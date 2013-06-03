@@ -165,6 +165,7 @@ We collect the web logs from online users for web sites administration and resea
     <DATA-GROUP>
     <DATA ref="#dynamic.clickstream" optional="yes"/>
     <DATA ref="#dynamic.clientevents"/>
+    <DATA ref="#dynamic.cookies" short="cookies are processed (read/write)" type="boolean" source="service" template="yes"/>
     <DATA ref="#dynamic.searchtext"/>
     <DATA ref="#dynamic.interactionrecord"/>
     </DATA-GROUP>
