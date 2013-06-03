@@ -7,7 +7,7 @@
 
 <POLICY name="CFSPP"
     discuri="http://boiling-chamber-1329.herokuapp.com/privacy.html"
-    opturi="http://boiling-chamber-1329.herokuapp.com/rivacy.html"
+    opturi="http://boiling-chamber-1329.herokuapp.com/privacy.html"
     xml:lang="en">
     <!-- Test-only policy - not for actual use -->
     <TEST/>
