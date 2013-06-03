@@ -6,8 +6,8 @@
     <EXPIRY max-age="86400"/>
 
 <POLICY name="CFSPP"
-    discuri="http://www.cfs.com/privacy.html"
-    opturi="http://www.cfs.com/privacy.html"
+    discuri="http://boiling-chamber-1329.herokuapp.com/privacy.html"
+    opturi="http://boiling-chamber-1329.herokuapp.com/rivacy.html"
     xml:lang="en">
     <!-- Test-only policy - not for actual use -->
     <TEST/>
@@ -34,7 +34,7 @@
 
     <!-- Disputes -->
     <DISPUTES-GROUP>
-        <DISPUTES resolution-type="service" service="http://www.cfs.com/contactus.html" short-description="Customer service">
+        <DISPUTES resolution-type="service" service="http://boiling-chamber-1329.herokuapp.com/contactus.html" short-description="Customer service">
             <LONG-DESCRIPTION>Email: contactus@cfs.com
 Phone: 412-000-0000</LONG-DESCRIPTION>
             <REMEDIES><correct/></REMEDIES>
