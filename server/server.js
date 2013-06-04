@@ -8,6 +8,10 @@ function start(route, handle){
 		route(handle, '/', res);
 	});
 
+	app.get('/privacy', function(req, res){
+		route(handle, '/privacy', res);
+	});
+
 	app.get('/w3c/p3p.xml', function(req, res){
 		route(handle, '/p3p', res);
 	});
@@ -20,7 +24,7 @@ function start(route, handle){
 		route(handle, '/xmlcoding', res);
 	});
 
-
+	app.use(app.router);
 	app.use(express.static('./css'));
 	app.use(express.static('./js'));
 	app.use(express.static('./img'));

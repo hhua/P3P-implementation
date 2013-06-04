@@ -4,6 +4,7 @@ var requestHandlers = require("./server/requestHandlers");
 
 var handle = {};
 handle["/"] = requestHandlers.home;
+handle["/privacy"] = requestHandlers.privacy;
 handle["/p3p"] = requestHandlers.p3p;
 handle["/xmlcoding"] = requestHandlers.xmlcoding;
 
